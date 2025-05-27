@@ -31,6 +31,31 @@ I could calculate the mean number of hours slept to compare average hours slept 
 
 ## b. 
 
+```{r visualization}
+sleep_sum <- sleep_data |> #start with sleep_data dataframe
+  group_by(class_day) |> #group by class day (yes or no)
+  summarize(mean = mean(hours_slept)) #calculate the mean
+
+ggplot(data = sleep_data, #using the sleep_data data frame
+       aes(x = class_day, #make the x-axis class day
+           y = hours_slept, #make the y-axis hours slept
+           color = class_day)) + #coloring points by class day
+  #first layer: showing underlying data
+  geom_jitter(height = 0, #no jitter in the vertical direction
+              width = 0.1, #smaller jitter in horizontal direction
+              alpha = 0.4, #make the points more transparent
+              shape = 21) + #make the points open circles
+  #second layer: showing the summary (mean)
+  geom_point(data = sleep_sum, #using sleep data dataframe
+                  aes(x = class_day, #x-axis is class day
+                      y = mean)) + #y-axis is the mean
+  labs(x = "Class day", #label x-axis
+       y = "Hours slept",) + #label y-axis
+  scale_color_manual(values = c("Yes" = "darkorchid3",
+                                "No" = "tomato3")) + #change from default colors
+  theme_bw() + #use a preferred theme
+  theme(legend.position = "none") #remove legend
+```
 
 
 ## c. 
