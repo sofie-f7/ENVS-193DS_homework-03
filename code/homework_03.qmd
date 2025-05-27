@@ -60,3 +60,17 @@ ggplot(data = sleep_data, #using the sleep_data data frame
 ## c. 
 
 Figure 1. Nights that don't precede a class day tend to have a higher mean hours slept. Points represent observations of number of hours slept on days that I have class (n = 22) and days that I do not have class (n = 8). Colors represent class days and non-class days (red circles: non-class day, purple circles: class day). The mean hours slept are shown for both types of day as the filled-in points. Data collected in Spring 2025 for ENVS 193DS class.
+
+## d. 
+
+```{r table presentation}
+sleep_sum |> #using summary dataframe
+  mutate(Mean_hours_slept = round(mean, 1)) |> #round the mean
+  select(class_day, Mean_hours_slept) |> #select the class day column and the rounded mean
+  rename( #rename to readable text
+    "Class day" = "class_day", #rename class_day to Class Day
+    "Mean hours slept" = "Mean_hours_slept" #rename Mean_hours_slept to Mean hours slept
+  ) |> 
+  flextable() #add this to a flextable and display
+```
+
