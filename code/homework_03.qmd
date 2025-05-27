@@ -1,0 +1,36 @@
+---
+title: "ENVS 193DS Homework 3"
+author: "Sofie Flom"
+date: "28 May 2025"
+format: html
+execute:
+  message: false # use this to make sure messages don't show up
+  warning: false # use this to make sure warnings don't show up
+---
+https://github.com/sofie-f7/ENVS-193DS_homework-03
+
+# Set up
+```{r packages-and-data, message=FALSE}
+library(tidyverse) # general use
+library(here) # file organization
+library(janitor) # cleaning data frames
+library(readxl) # reading excel files
+library(flextable) # reading in the flextable package
+
+sleep_data <- read_xlsx( #reading in an excel file
+  here("data", "ENV S_193DS_data.xlsx") #file path to personal data 
+)
+
+```
+
+# 1. 
+
+## a. 
+
+I could calculate the mean number of hours slept to compare average hours slept on days that I have class compared to days that I don't have class. This is because I think that having classes the following day makes me more anxious the night before, and therefore makes me sleep less.
+
+## b. 
+
+
+
+## c. 
