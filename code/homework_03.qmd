@@ -23,7 +23,7 @@ sleep_data <- read_xlsx( #reading in an excel file
 
 ```
 
-# 1. 
+# Problem 1. 
 
 ## a. 
 
@@ -73,4 +73,12 @@ sleep_sum |> #using summary dataframe
   ) |> 
   flextable() #add this to a flextable and display
 ```
+# Problem 2.
+
+## a. 
+
+For my personal data, an affective visualization could look like a drawing that conveys emotion, where the priority is creativity and novelty. I am thinking to draw a brain in the middle of a paper, and then draw brain waves that occur during sleep coming out from the brain. The brain waves will fill the whole rest of the page, giving the brain a sun-like appearance. Each brain wave will represent one observation, the frequency will represent how many hours I slept, and the color will indicate a class day or non-class day. 
+
+## b. 
+
 
