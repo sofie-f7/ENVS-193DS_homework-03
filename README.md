@@ -12,7 +12,7 @@ The data was collected by me.
 
 There are two folders, a code folder and a data folder. All code is in the code folder, and my personal data is in the data folder. 
 
-In the code folder, there is a file called "homework_03.qmd" that contains all code for this analysis. The code folder also has some images that I have added to homeworld_03.qmd for easy access.
+In the code folder, there is a file called "homework_03.qmd" that contains all code for this analysis. The code folder also has some images that I have added to homework_03.qmd for easy access.
 
 ## Rendered output
 
