@@ -85,4 +85,21 @@ For my personal data, an affective visualization could look like a drawing that 
 
 ## c. 
 
+![](hw_3_drawing.jpg)
+## d. 
 
+
+# Problem 3. 
+
+## a. 
+
+Multivariate logistic regression tests are included in this paper. The response variable is at-vessel mortality. The predictor variables include body length, hooking duration, time of capture, hook position, hooking temperature, and dissolved oxygen at capture. 
+
+![](IMG_3780.png)
+The x-axes of these figures are body length and hooking temperature. The y-axes of both figures are survival probability, which is another way of demonstrating at-vessel mortality. The figure is showing the effects of body length and hooking temperature on the survival probability of oceanic whitetip individuals. Larger individuals had a better chance of survival, and as hooking temperature increased, the odds of survival also increased.
+
+## b. 
+
+The authors clearly represented their statistics in the figure. The x-axes and y-axes seem to be in logical positions with informative units. The sample sizes are given at the tops of the figures. A model prediction is shown, within the underlying collected data shown as black circles on the same figures. The 95% confidence interval is shown as the purple shaded region. The figures were positioned next to each other for easy comparison of these two predictor variables. 
+
+## c. 
