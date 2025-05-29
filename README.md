@@ -16,4 +16,4 @@ In the code folder, there is a file called "homework_03.qmd" that contains all c
 
 ## Rendered output
 
-[Link to rendered .html](https://sofie-f7.github.io/ENVS-193DS_homework-03/code/homework_03.html)
+The rendered output for the code in this repository is [here](https://sofie-f7.github.io/ENVS-193DS_homework-03/code/homework_03.html)
