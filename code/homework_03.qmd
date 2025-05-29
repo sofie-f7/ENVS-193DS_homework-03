@@ -104,4 +104,8 @@ The authors clearly represented their statistics in the figure. The x-axes and y
 
 ## c. 
 
-The authors seem to handle visual clutter well. The data:ink ratio is good, as almost all the elements that are shown serve the purpose of conveying information. The gridlines are taken out and there is no background color. The colors of the model prediction and the confidence interval don't clash with each other or the background, and are easy to interpret.
+The authors seem to handle visual clutter well. The data:ink ratio is good, as almost all the elements that are shown serve the purpose of conveying information. The gridlines are taken out and there is no background color. The colors of the model prediction and the confidence interval don't clash with each other or the background, and are easy to interpret. The figure is easy to interpret within the first couple seconds of viewing the figure. 
+
+## d. 
+
+I recommend moving the sample sizes to the corners of the figures. This is because it is in the place that a title would be, which seems to draw more attention to it than other more-important parts of the figure. I would not remove it since it is a valuable statistic to share. I also recommend removing the tick marks on the axes. This will make the figures even less visually cluttered than they already are. Also, I recommend making the black points that represent individual data points more transparent, so that points that overlap are easier to interpret. In the figure caption, I would convey what the purple shaded region and the red line represent in the caption, so that a reader that is less experienced with models does not have a hard time interpreting it.
