@@ -2,7 +2,9 @@
 title: "ENVS 193DS Homework 3"
 author: "Sofie Flom"
 date: "28 May 2025"
-format: html
+format:
+  html:
+    toc: true # use this to display a table of contents
 execute:
   message: false # use this to make sure messages don't show up
   warning: false # use this to make sure warnings don't show up
